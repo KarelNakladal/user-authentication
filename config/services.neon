@@ -4,3 +4,4 @@ services:
 	- App\Forms\SignInFormFactory
 	- App\Forms\SignUpFormFactory
 	- App\Router\RouterFactory::createRouter
+	- App\Model\ProductFacade

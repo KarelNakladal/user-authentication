@@ -1,0 +1,17 @@
+{block content}
+
+{control addProduct}
+<div class="row mt-4">
+<div class="col-md-2 col-12 sticky-md-top">
+sex
+</div>
+<div class="row col-md-8 bg-danger">
+    {foreach $products as $product}
+        <div class="col-12 col-md-4">
+            <h3>{$product->Name}</h3>
+            <h4>{$product->Price} KČ</h4>
+            {$product->Description|truncate:50}
+        </div>
+    {/foreach}
+</div>
+</div>

@@ -2,6 +2,7 @@ parameters:
 
 
 database:
-	dsn: 'sqlite:%appDir%/../users.sqlite.db'
-	user:
-	password:
+	dsn: 'mysql:host=127.0.0.1:3307;dbname=eshop'
+	user: root
+	password: root
+

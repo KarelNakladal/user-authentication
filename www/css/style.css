@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+a{
+    color: wheat;
+}
+
+.topMenu{
+    clip-path: polygon(20% 200px, 80% 200px, 100% 0, 0 0);
+    background-image: linear-gradient(90deg,rgb(150, 0, 0) 10%,rgb(104, 0, 0), rgb(150, 0, 0) 90%);
+}
+.topMenu li{
+    width: 33.333%;
+    text-align: center;
+    transition: background-color 200ms;
+}
+.topMenu ul{
+    width: 20%;
+}
+.topMenu li:hover{
+    background-color: rgba(255, 123, 0, 0.3);
+}
+.centeredDiv{
+    margin:auto;
+}
